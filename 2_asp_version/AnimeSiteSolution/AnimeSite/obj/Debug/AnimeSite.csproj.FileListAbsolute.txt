@@ -1,0 +1,5 @@
+D:\prv\[new]\[LProgramming]\[Sites Web]\web site (html-css-js)\anime_site\asp_version\AnimeSiteSolution\AnimeSite\obj\Debug\ResolveAssemblyReference.cache
+D:\prv\[new]\[LProgramming]\[Sites Web]\web site (html-css-js)\anime_site\asp_version\AnimeSiteSolution\AnimeSite\bin\AnimeSite.dll
+D:\prv\[new]\[LProgramming]\[Sites Web]\web site (html-css-js)\anime_site\asp_version\AnimeSiteSolution\AnimeSite\bin\AnimeSite.pdb
+D:\prv\[new]\[LProgramming]\[Sites Web]\web site (html-css-js)\anime_site\asp_version\AnimeSiteSolution\AnimeSite\obj\Debug\AnimeSite.dll
+D:\prv\[new]\[LProgramming]\[Sites Web]\web site (html-css-js)\anime_site\asp_version\AnimeSiteSolution\AnimeSite\obj\Debug\AnimeSite.pdb

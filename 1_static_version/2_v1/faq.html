@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<!-- Anime Web Site FAQ by AXeL -->
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>FAQ</title>
+		<style type="text/css">
+			/*-------- Font Face --------*/
+			@font-face {
+				font-family: 'Oswald';
+  				font-style: normal;
+  				font-weight: 200;
+  				src: local('Oswald Light'), local('Oswald-Light'), url('rsc/fonts/Oswald.woff') format('woff');
+			}
+			
+			/*-------- body --------*/
+			body {
+			background: #ffffff;
+			font-family: Oswald;
+			counter-reset: h1Counter;
+			}
+			
+			/*-------- q_and_a --------*/
+			.q_and_a {
+			display: inline-block;
+			width: 100%;
+			}
+			
+			/*-------- h1 --------*/
+			.q_and_a h1 {
+			color: #333333;
+			font-size: 20px;
+			margin: 0;
+			}
+			
+			.q_and_a h1:before {
+			content: counter(h1Counter) ". "; 	/* Affichage du nombre h1Counter initialisé dans body + ajout de ". " */
+			counter-increment: h1Counter; 	/* Incrémentation du nombre h1Counter */
+			}
+			
+			.q_and_a h1:hover {
+			color: #515151;
+			text-decoration: underline;
+			}
+			
+			/*-------- p --------*/
+			.q_and_a p {
+			line-height: 30px;
+			//font-size: 18px;
+			}
+		</style>
+	</head>
+	
+	<body>
+		<div class="q_and_a">
+			<h1>Quelle est la différence entre Anime et Manga ?</h1>
+			<p>
+			Les deux mots sont d'origine japonaise. En gros, anime (qu'on doit prononcer animé) designe tous les produits de l'animation japonaise (séries, OAV, films) alors que manga designe, lui, les bandes dessinées. Il faut bien dissocier les deux concepts, meme s'il peut exister un lien entre eux. Les mangas servent en général de support aux anime, mais l'inverse est également vrai depuis la fin des années 1980.
+			</p>
+		</div>
+		<div class="q_and_a">
+			<h1>Qu'est ce qu'un Mangaka ?</h1>
+			<p>
+			Dessinateur de Bande Dessinée japonaise.
+			</p>
+		</div>
+		<div class="q_and_a">
+			<h1>Que signifient Shônen, Shôjo, Seinen, ...  ?</h1>
+			<p>
+			<strong><em>Shônen</em></strong><br />
+			Littéralement "jeune garçon". Version masculine de Shôjo, désigne par extension les mangas destinés aux garcons. Souvent à caractère sportif (Slam Dunk) voire romantique.
+			<br /><strong><em>Shôjo</em></strong><br />
+			Littéralement "jeune fille". Ce mot est employé par extension aux mangas faits pour les jeunes filles et ados. Souvent très romantique et rose.
+			<br /><strong><em>Seinen</em></strong><br />
+			Désigne un genre d'animes ou de mangas destinés à un public adulte donc prépubliés dans un magazine pour jeunes adultes. Exemples : Monster ou Le Sommet des dieux.
+			<br /><strong><em>Mecha</em></strong><br />
+			Prononcer Méca. C'est tout ce qui est du genre robot ou armure du futur.
+			<br /><strong><em>Seiyu</em></strong><br />
+			Doubleur japonais, dont certains sont devenus très célèbres tout en restant sur ce créneau.
+			</p>
+		</div>
+		<div class="q_and_a">
+			<h1>Cosplay c'est quoi ?</h1>
+			<p>
+			Déguisement inspiré d'un personnage d'anime ou de manga. Des séries de photos peuvent être vus comme exemples sur les sites d'animefans spécialisés dans le cosplay.
+			</p>
+		</div>
+		<div class="q_and_a">
+			<h1>Qu'est ce qu'une Fansub ?</h1>
+			<p>
+			Contraction de Fan Subtitling, ou activité de sous titrage amateur.
+			</p>
+		</div>
+		<div class="q_and_a">
+			<h1>Que signifie Spoiler ?</h1>
+			<p>
+			Eléments dans un texte, critique ou commentaire, qui dévoile l'intrigue ou raconte trop en détails.
+			</p>
+		</div>
+	</body>
+</html>

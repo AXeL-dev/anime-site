@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<!-- Anime Web Site Names by AXeL -->
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Créateurs du site Anime</title>
+		<style>
+			/*-------- Font Face --------*/
+			@font-face {
+  				font-family: 'Oswald';
+  				font-style: normal;
+  				font-weight: 200;
+  				src: local('Oswald Light'), local('Oswald-Light'), url('rsc/fonts/Oswald.woff') format('woff');
+  			}
+  			
+  			/*-------- body --------*/
+  			html, body {
+  			height: 100%;
+  			}
+  			
+			body {
+			background-color: #333333;
+			background-image: url('v2_rsc/bg_names.jpg');
+			background-size: 100% auto;
+			font-family: Oswald;
+			margin: 0;
+			}
+			
+			/*-------- cercle --------*/
+			#cercle {
+			text-align: center;
+			/*vertical-align: middle;*/
+			}
+			
+			.cercle_text {
+			color: #dddddd;
+			font-size: 50px;
+			font-weight: bold;
+			}
+			
+			#text_a_gauche {
+			float: left;
+			margin: 200px 0 0 60px;
+			}
+			
+			#text_a_droite {
+			float: right;
+			margin: 200px 100px 0 0;
+			}
+			
+			.text_milieu {
+			color: #e74c3c;
+			}
+			
+			.demi_cercle_haut, .demi_cercle_bas {
+			display: inline-block;
+			width: 600px;
+			height: 300px;
+			/*margin: auto;*/
+			}
+			
+			.demi_cercle_haut {
+			margin-top: 20px;
+			background: #ffffff;
+			border-radius: 300px 300px 0 0; /* pour créer le demi-cercle du haut */
+			opacity: 0.6;
+			}
+			
+			.demi_cercle_haut:hover {
+			opacity: 1;
+			}
+			
+			.demi_cercle_bas {
+			margin-top: 3px;
+			margin-bottom: 20px;
+			background: #515151;
+			border-radius: 0 0 300px 300px; /* pour créer le demi-cercle du bas */
+			}
+			
+			/*-------- img --------*/
+			.demi_cercle_haut img {
+			margin-top: 32px;
+			max-height: 265px;
+			/*overflow: hidden;*/
+			}
+			
+			/*-------- pseudo_and_name --------*/
+			.pseudo_and_name {
+			display: inline-block;
+			padding: 10px;
+			}
+			
+			.pseudo_and_name:hover {
+			-webkit-transform: scale(1.1,1.1);
+			-moz-transform: scale(1.1,1.1);
+			}
+			
+			#first_one {
+			margin-top: 35px;
+			}
+			
+			.pseudo, .full_name {
+			font-size: 20px;
+			font-weight: bold;
+			color: #ffffff;
+			padding: 5px 10px;
+			}
+			
+			.pseudo {
+			background: #333333;
+			border-radius: 4px 0 0 4px;
+			margin: 0;
+			}
+			
+			.full_name {
+			background: #e74c3c;
+			border-radius: 0 4px 4px 0;
+			margin-left: 2px;
+			}
+			
+			/*-------- plus --------*/
+			.plus {
+			margin: auto;
+			font-size: 20px;
+			font-weight: bold;
+			/*background: #333333;*/
+			color: #ffffff;
+			width: 30px;
+			height: 30px;
+			border-radius: 4px;
+			}
+			
+			.plus:hover {
+			background: #e74c3c;
+			}
+			
+			/*-------- go_back --------*/
+			#go_back {
+			display: inline-block;
+			float: left;
+			width: 40px;
+			height: 100%;
+			min-height: 645px; /* 300px * 2 (des demi-cercle) + 20px * 2 (margin-top et bottom) + 5px (margin-top du demi-cercle-bas) */
+			background: #515151 url('rsc/prev.png') no-repeat center;
+			text-decoration: none;
+			opacity: 0.6;
+			outline: none;
+			box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+			}
+			
+			#go_back:hover {
+			/*background: #e74c3c url('rsc/prev.png') no-repeat center;*/
+			opacity: 1;
+			}
+		</style>
+	</head>
+	
+	<body>
+	<a id="go_back" href="v2_anime_site.html"></a>
+	<div id="cercle">
+		<span class="cercle_text" id="text_a_gauche">Design<br/><span class="text_milieu">&</span><br/>Code By</span>
+		<span class="cercle_text" id="text_a_droite">Thanks<br/><span class="text_milieu">for</span><br/>Supporting</span>
+		<div class="demi_cercle_haut">
+			<img src="rsc/gits.gif"/>
+		</div>
+		<div class="demi_cercle_bas">
+			<div class="pseudo_and_name" id="first_one">
+				<span class="pseudo">AXeL</span><span class="full_name">Anass Denna</span>
+			</div>
+			<div class="plus">+</div>
+			<div class="pseudo_and_name">
+				<span class="pseudo">X Lord</span><span class="full_name">Othman Hejbanne</span>
+			</div>
+			<div class="plus">+</div>
+			<div class="pseudo_and_name">
+				<span class="pseudo">Smile</span><span class="full_name">Abdelatif moumkine</span>
+			</div>
+		</div>
+	</div>
+	</body>
+</html>

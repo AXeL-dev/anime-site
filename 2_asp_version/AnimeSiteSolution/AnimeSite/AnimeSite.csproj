@@ -1,0 +1,239 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6CAFCF33-1088-420F-BE24-10F1E3BBA8F7}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AnimeSite</RootNamespace>
+    <AssemblyName>AnimeSite</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="faq.html" />
+    <Content Include="rsc\.png" />
+    <Content Include="rsc\black_down.png" />
+    <Content Include="rsc\black_up.png" />
+    <Content Include="rsc\classement.png" />
+    <Content Include="rsc\close.png" />
+    <Content Include="rsc\colored_strip.png" />
+    <Content Include="rsc\down.png" />
+    <Content Include="rsc\faq.png" />
+    <Content Include="rsc\game_next_1.png" />
+    <Content Include="rsc\game_next_2.png" />
+    <Content Include="rsc\gits.gif" />
+    <Content Include="rsc\images\another.jpg" />
+    <Content Include="rsc\images\ao-no-exorcist.jpg" />
+    <Content Include="rsc\images\btooom.jpg" />
+    <Content Include="rsc\images\chaos-head.jpg" />
+    <Content Include="rsc\images\chuunibyou.jpg" />
+    <Content Include="rsc\images\clannad.jpg" />
+    <Content Include="rsc\images\code-geass.jpg" />
+    <Content Include="rsc\images\darker-than-black.jpg" />
+    <Content Include="rsc\images\death-note.jpg" />
+    <Content Include="rsc\images\fairy-tail.jpg" />
+    <Content Include="rsc\images\free.jpg" />
+    <Content Include="rsc\images\gantz.jpg" />
+    <Content Include="rsc\images\giant-killing.jpg" />
+    <Content Include="rsc\images\gin-no-saji.jpg" />
+    <Content Include="rsc\images\gto.jpg" />
+    <Content Include="rsc\images\guilty-crown.jpg" />
+    <Content Include="rsc\images\haikyuu.jpg" />
+    <Content Include="rsc\images\hunter-x-hunter.jpg" />
+    <Content Include="rsc\images\hyouka.jpg" />
+    <Content Include="rsc\images\kaiji.jpg" />
+    <Content Include="rsc\images\kokoro-connect.jpg" />
+    <Content Include="rsc\images\kurokami.jpg" />
+    <Content Include="rsc\images\kyoukai-no-kanata.jpg" />
+    <Content Include="rsc\images\log-horizon.jpg" />
+    <Content Include="rsc\images\mirai-nikki.jpg" />
+    <Content Include="rsc\images\monster.jpg" />
+    <Content Include="rsc\images\nagi-no-asukara.jpg" />
+    <Content Include="rsc\images\naruto.jpg" />
+    <Content Include="rsc\images\nhk.jpg" />
+    <Content Include="rsc\images\not_added\danganronpa.jpg" />
+    <Content Include="rsc\images\not_added\kuroshitsuji.jpg" />
+    <Content Include="rsc\images\not_added\no-game-no-life.jpg" />
+    <Content Include="rsc\images\not_added\zankyou-no-terror.jpg" />
+    <Content Include="rsc\images\one-outs.jpg" />
+    <Content Include="rsc\images\one-piece.jpg" />
+    <Content Include="rsc\images\oreimo.jpg" />
+    <Content Include="rsc\images\pandora-hearts.jpg" />
+    <Content Include="rsc\images\papa-no-lukoto-wo-kikinasai.jpg" />
+    <Content Include="rsc\images\phantom.jpg" />
+    <Content Include="rsc\images\psycho-pass.jpg" />
+    <Content Include="rsc\images\robotics-notes.jpg" />
+    <Content Include="rsc\images\sakurasou-no-pet-na-kanojo.jpg" />
+    <Content Include="rsc\images\sao.jpg" />
+    <Content Include="rsc\images\shin-sekai-yori.jpg" />
+    <Content Include="rsc\images\shingeki-no-kyojin.jpg" />
+    <Content Include="rsc\images\slam-dunk.jpg" />
+    <Content Include="rsc\images\steins-gate.jpg" />
+    <Content Include="rsc\images\tokyo-ghoul.jpg" />
+    <Content Include="rsc\images\tokyo-magnitude-8.0.jpg" />
+    <Content Include="rsc\images\toradora.jpg" />
+    <Content Include="rsc\images\upcoming_anime\aldnoah-zero-s2.jpg" />
+    <Content Include="rsc\images\upcoming_anime\assassination-classroom.jpg" />
+    <Content Include="rsc\images\upcoming_anime\durarara-s2.jpg" />
+    <Content Include="rsc\images\upcoming_anime\mahouka-koukou-no-rettousei-s2.jpg" />
+    <Content Include="rsc\images\upcoming_anime\seiken-tsukai-no-world-break.jpg" />
+    <Content Include="rsc\images\upcoming_anime\shingeki-no-kyojin-s2.jpg" />
+    <Content Include="rsc\images\upcoming_anime\shinmai-maou-no-keiyakusha.jpg" />
+    <Content Include="rsc\images\upcoming_anime\soukyuu-no-fafner-dead-aggressor-exodus.jpg" />
+    <Content Include="rsc\images\upcoming_anime\tokyo-ghoul-s2.jpg" />
+    <Content Include="rsc\images\upcoming_anime\tsukimonogatari.jpg" />
+    <Content Include="rsc\images\yowamushi-pedal.jpg" />
+    <Content Include="rsc\logo.png" />
+    <Content Include="rsc\nav_bar_icons\action_grey.png" />
+    <Content Include="rsc\nav_bar_icons\action_white.png" />
+    <Content Include="rsc\nav_bar_icons\aventure_grey.png" />
+    <Content Include="rsc\nav_bar_icons\aventure_white.png" />
+    <Content Include="rsc\nav_bar_icons\a_venir_grey.png" />
+    <Content Include="rsc\nav_bar_icons\a_venir_white.png" />
+    <Content Include="rsc\nav_bar_icons\comedie_grey.png" />
+    <Content Include="rsc\nav_bar_icons\comedie_white.png" />
+    <Content Include="rsc\nav_bar_icons\drame_grey.png" />
+    <Content Include="rsc\nav_bar_icons\drame_white.png" />
+    <Content Include="rsc\nav_bar_icons\home.png" />
+    <Content Include="rsc\nav_bar_icons\home_2.png" />
+    <Content Include="rsc\nav_bar_icons\jeu_grey.png" />
+    <Content Include="rsc\nav_bar_icons\jeu_white.png" />
+    <Content Include="rsc\nav_bar_icons\life_2_grey.png" />
+    <Content Include="rsc\nav_bar_icons\life_2_white.png" />
+    <Content Include="rsc\nav_bar_icons\life_grey.png" />
+    <Content Include="rsc\nav_bar_icons\life_white.png" />
+    <Content Include="rsc\nav_bar_icons\psycho_grey.png" />
+    <Content Include="rsc\nav_bar_icons\psycho_white.png" />
+    <Content Include="rsc\nav_bar_icons\sci_grey.png" />
+    <Content Include="rsc\nav_bar_icons\sci_white.png" />
+    <Content Include="rsc\nav_bar_icons\sport_grey.png" />
+    <Content Include="rsc\nav_bar_icons\sport_white.png" />
+    <Content Include="rsc\nav_bar_icons\video_grey.png" />
+    <Content Include="rsc\nav_bar_icons\video_white.png" />
+    <Content Include="rsc\new.png" />
+    <Content Include="rsc\next.png" />
+    <Content Include="rsc\prev.png" />
+    <Content Include="rsc\refresh.png" />
+    <Content Include="rsc\slider_images\575x280\code_geass.jpg" />
+    <Content Include="rsc\slider_images\575x280\death_note.jpg" />
+    <Content Include="rsc\slider_images\575x280\hyouka.jpg" />
+    <Content Include="rsc\slider_images\575x280\log_horizon.jpg" />
+    <Content Include="rsc\slider_images\575x280\sao.jpg" />
+    <Content Include="rsc\slider_images\575x280\steins-gate.jpg" />
+    <Content Include="rsc\toImg.png" />
+    <Content Include="rsc\top_15.png" />
+    <Content Include="rsc\toText.png" />
+    <Content Include="rsc\true.png" />
+    <Content Include="rsc\up.png" />
+    <Content Include="rsc\videos\mp4\code-geass.mp4" />
+    <Content Include="rsc\videos\mp4\death-note.mp4" />
+    <Content Include="rsc\videos\mp4\sao.mp4" />
+    <Content Include="rsc\videos\mp4\shingeki-no-kyojin.mp4" />
+    <Content Include="rsc\videos\mp4\steins-gate.mp4" />
+    <Content Include="v2_anime_site.aspx" />
+    <Content Include="v2_default_script.js" />
+    <Content Include="v2_default_style.css" />
+    <Content Include="v2_names.html" />
+    <Content Include="v2_rsc\bg.jpg" />
+    <Content Include="v2_rsc\bg_02.jpg" />
+    <Content Include="v2_rsc\bg_disabled.jpg" />
+    <Content Include="v2_rsc\bg_disabled_02.jpg" />
+    <Content Include="v2_rsc\bg_names.jpg" />
+    <Content Include="v2_rsc\bg_names_02.jpg" />
+    <Content Include="v2_rsc\icone.png" />
+    <Content Include="v2_rsc\v2.png" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="v2_anime_site.aspx.cs">
+      <DependentUpon>v2_anime_site.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="v2_anime_site.aspx.designer.cs">
+      <DependentUpon>v2_anime_site.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="rsc\fonts\Oswald.woff" />
+    <None Include="rsc\videos\ogg\code-geass.ogg" />
+    <None Include="rsc\videos\ogg\death-note.ogg" />
+    <None Include="rsc\videos\ogg\sao.ogg" />
+    <None Include="rsc\videos\ogg\shingeki-no-kyojin.ogg" />
+    <None Include="rsc\videos\ogg\steins-gate.ogg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>49163</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
