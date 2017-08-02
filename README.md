@@ -8,6 +8,6 @@ Ci-dessous quelques captures d'écran.
 
 ![Screenshot](home_screenshot.png)
 
- + Mini-jeu (en javascipt) :
+ + Mini-jeu (en javascript) :
 
 ![Screenshot](mini_game_screenshot.png)
