@@ -10,4 +10,4 @@ Ci-dessous quelques captures d'écran.
 
  + Mini-jeu (en javascipt) :
 
-![Screenshot](home_screenshot.png)
+![Screenshot](mini_game_screenshot.png)
